@@ -9,10 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-
-    
-   
 
     @IBOutlet weak var buttonLog: UIButton!
     
@@ -21,8 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        
-    buttonLog.layer.cornerRadius = 10 //modifica el borde del boton
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,6 +28,16 @@ class ViewController: UIViewController {
         return true
         
     } //Oculta el teclado cuando se presiona intro
+        
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+            self.view.endEditing(true)
+        } // Oculta el teclado cuando se da tap donde sea
+        
+   
+    
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) { //Regresa a view principal
+        print("Cerre viste")
+    }
 
 }
 

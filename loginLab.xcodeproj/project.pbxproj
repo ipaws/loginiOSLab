@@ -14,6 +14,8 @@
 		E292DF3C203F52AB001ADA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E292DF3A203F52AB001ADA70 /* LaunchScreen.storyboard */; };
 		E292DF47203F52AB001ADA70 /* loginLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292DF46203F52AB001ADA70 /* loginLabTests.swift */; };
 		E292DF52203F52AB001ADA70 /* loginLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292DF51203F52AB001ADA70 /* loginLabUITests.swift */; };
+		E2C7D4E02050837F0059DD2E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7D4DF2050837F0059DD2E /* RoundButton.swift */; };
+		E2C7D4E2205085700059DD2E /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7D4E1205085700059DD2E /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E292DF4D203F52AB001ADA70 /* loginLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E292DF51203F52AB001ADA70 /* loginLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginLabUITests.swift; sourceTree = "<group>"; };
 		E292DF53203F52AB001ADA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C7D4DF2050837F0059DD2E /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		E2C7D4E1205085700059DD2E /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				E292DF31203F52AB001ADA70 /* AppDelegate.swift */,
 				E292DF33203F52AB001ADA70 /* ViewController.swift */,
+				E2C7D4DF2050837F0059DD2E /* RoundButton.swift */,
 				E292DF35203F52AB001ADA70 /* Main.storyboard */,
+				E2C7D4E1205085700059DD2E /* RegistroViewController.swift */,
 				E292DF38203F52AB001ADA70 /* Assets.xcassets */,
 				E292DF3A203F52AB001ADA70 /* LaunchScreen.storyboard */,
 				E292DF3D203F52AB001ADA70 /* Info.plist */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7D4E02050837F0059DD2E /* RoundButton.swift in Sources */,
+				E2C7D4E2205085700059DD2E /* RegistroViewController.swift in Sources */,
 				E292DF34203F52AB001ADA70 /* ViewController.swift in Sources */,
 				E292DF32203F52AB001ADA70 /* AppDelegate.swift in Sources */,
 			);
